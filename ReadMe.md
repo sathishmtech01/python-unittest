@@ -95,4 +95,21 @@
 #### Coverage report html single module
 ![alt text](img/cov_module.png)
 
-
+#### Generate coverage report - After adding test case in test_circle.py - perimeter function
+    (venv) csk@csk-ai-revolution:~/IdeaProjects/python-unittest$ python -m coverage run -m unittest
+    .......
+    ----------------------------------------------------------------------
+    Ran 7 tests in 0.001s
+    
+    OK
+    (venv) csk@csk-ai-revolution:~/IdeaProjects/python-unittest$ python -m coverage report
+    Name                  Stmts   Miss  Cover
+    -----------------------------------------
+    shapes/circle.py         11      0   100%
+    shapes/shape.py           5      1    80%
+    shapes/square.py          9      0   100%
+    test/__init__.py          0      0   100%
+    test/test_circle.py      17      0   100%
+    test/test_square.py      14      0   100%
+    -----------------------------------------
+    TOTAL                    56      1    98%
