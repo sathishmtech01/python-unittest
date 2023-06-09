@@ -1,7 +1,8 @@
 
 ## Docker Images 
-https://hub.docker.com/r/amazon/aws-lambda-python
-https://docs.aws.amazon.com/lambda/latest/dg/python-image.html
+    Reference links
+        - https://hub.docker.com/r/amazon/aws-lambda-python
+        - https://docs.aws.amazon.com/lambda/latest/dg/python-image.html
 
 ### Steps
 
