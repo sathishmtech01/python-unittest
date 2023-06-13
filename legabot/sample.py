@@ -2,8 +2,8 @@ from rasa.core.agent import Agent
 import asyncio
 agent = Agent.load(model_path='/home/csk/IdeaProjects/python-unittest/legabot/models/20230607-162104-mild-gofer.tar.gz')
 text = "hi"
-response = agent.handle_text(text)
-print(asyncio.run(agent.handle_text(text)))
+response = asyncio.run(agent.handle_text(text))
+print(response)
 
 from rasa.core.agent import Agent
 from rasa.shared.utils.io import json_to_string
