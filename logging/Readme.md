@@ -1,0 +1,16 @@
+__name__ 57
+__doc__ 16
+__package__ 16
+__loader__ 48
+__spec__ 16
+__annotations__ 64
+__builtins__ 72
+__file__ 112
+__cached__ 16
+logging 72
+sys 72
+getsizeof 72
+logger 48
+formatter 48
+streamhandler 48
+memoryhandler 48
